@@ -4,12 +4,13 @@ using namespace std;
 
 int main(){
 	int in(0);
+	char text[]("This is a test");
 
 	while(9 != in){
-			cout << "Text for game" << endl;
+		cout << text << endl;
 		cout << endl << endl;
 		cout << "--- List of Options ---" << endl;
-		cout << "1. Do somthing" << endl;
+		cout << "1. rund" << endl;
 		cout << "2. Do somthing" << endl;
 		cout << "9. End" << endl;
 		cout << endl;
@@ -18,7 +19,7 @@ int main(){
 		cin >> in;
 
 		if(1 == in){
-			cout << "Text to do somthing 2" << endl;
+			cout << "Test";
 		}
 
 		if(2 == in){
