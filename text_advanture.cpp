@@ -6,7 +6,7 @@ int main(){
 	int in(0);
 
 	while(9 != in){
-			cout << "Text for game" << endl;
+		cout << "Text for game" << endl;
 		cout << endl << endl;
 		cout << "--- List of Options ---" << endl;
 		cout << "1. Do somthing" << endl;
